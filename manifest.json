@@ -1,0 +1,101 @@
+{
+  "attachments": {
+    "config": {
+      "detach_threshold": 26214400,
+      "inline_threshold": 65536
+    },
+    "items": [],
+    "stats": {
+      "bytes_copied": 0,
+      "copied": 0,
+      "externalized": 0,
+      "inline": 0,
+      "missing": 0
+    }
+  },
+  "database": {
+    "chunk_manifest": null,
+    "chunked": false,
+    "fts_enabled": false,
+    "path": "mailbox.sqlite3",
+    "sha256": "25a304d83d90d53a94a6cfc59c822f76aaf46e10cf9c0963f88efff0a1070ba3",
+    "size_bytes": 4947968
+  },
+  "export_config": {
+    "chunk_size": 4194304,
+    "chunk_threshold": 20971520,
+    "detach_threshold": 26214400,
+    "inline_threshold": 65536,
+    "projects": [
+      "/data/projects/mcp_agent_mail_ios_app"
+    ],
+    "scrub_preset": "standard"
+  },
+  "exporter_version": "prototype",
+  "generated_at": "2025-11-06T04:12:51.657663+00:00",
+  "hosting": {
+    "detected": [
+      {
+        "id": "github_pages",
+        "signals": [
+          "Git remote: https://github.com/Dicklesworthstone/mcp_agent_mail.git"
+        ],
+        "summary": "Deploy the bundle via docs/ or gh-pages branch with coi-serviceworker.js for cross-origin isolation.",
+        "title": "GitHub Pages"
+      }
+    ]
+  },
+  "notes": [
+    "Prototype manifest. Viewer asset Subresource Integrity hashes recorded under viewer.sri.",
+    "Viewer scaffold with diagnostics is bundled; SPA search/thread views arrive in upcoming milestones."
+  ],
+  "project_scope": {
+    "included": [
+      {
+        "human_key": "/data/projects/mcp_agent_mail_ios_app",
+        "slug": "data-projects-mcp-agent-mail-ios-app"
+      }
+    ],
+    "removed_count": 0,
+    "requested": [
+      "/data/projects/mcp_agent_mail_ios_app"
+    ]
+  },
+  "schema_version": "0.1.0",
+  "scrub": {
+    "ack_flags_cleared": 1500,
+    "agent_links_removed": 398,
+    "agents_pseudonymized": 0,
+    "agents_total": 66,
+    "attachments_cleared": 0,
+    "attachments_sanitized": 0,
+    "bodies_redacted": 0,
+    "file_reservations_removed": 289,
+    "preset": "standard",
+    "pseudonym_salt": "",
+    "recipients_cleared": 3242,
+    "secrets_replaced": 0
+  },
+  "viewer": {
+    "messages": "viewer/data/messages.json",
+    "meta": "viewer/data/meta.json",
+    "meta_info": {
+      "fts_enabled": false,
+      "generated_at": "2025-11-06T04:12:51.655879+00:00",
+      "message_count": 1500,
+      "messages_cached": 500
+    },
+    "sri": {
+      "viewer/coi-serviceworker.js": "sha256-R2oINUqmsGw2NNoDnP4bRPXuao545zv2uQOJOlR0fKM=",
+      "viewer/preview-reload.js": "sha256-JiqrRbkQE/Ulhexnfzz1JG2U1Te2IfB+7duXZGvqPiE=",
+      "viewer/styles.css": "sha256-vKQhZyIfa5n5QyCbMT881G7F9qjdO6ZOMhK2aquuBy0=",
+      "viewer/vendor/clusterize.min.css": "sha256-IoY0mRl15723XeZvl/t8zDwMQwuZ8ZkZLnmcCgZBgRM=",
+      "viewer/vendor/clusterize.min.js": "sha256-kZrY+ddUOM0611/m0WOv4sSCBjS1SX32kf23mZ+dXyk=",
+      "viewer/vendor/dompurify.min.js": "sha256-0kaYYq3qitkkVZpP/6uKTJwfTpqFNM6OHDbsaYzw9Uw=",
+      "viewer/vendor/marked.min.js": "sha256-iiOIwxmH8YPwUHaWKofAvi6NTUI9pec6g05elbtCB+8=",
+      "viewer/vendor/sql-wasm.js": "sha256-9cBAQDHMih4tbYVuFUU2d15OxSC1Rx0AMG6D1O3rn8I=",
+      "viewer/vendor/sql-wasm.wasm": "sha256-BzQVXIPkk5g9Hy/1sJpPq241oy6UScfk5UV1ZDn2LXM=",
+      "viewer/viewer.js": "sha256-0cBHFrc8dzya8CCwHlbSb54QiGfC48effcJu8ekRYhQ="
+    }
+  }
+}
